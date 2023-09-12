@@ -1,5 +1,8 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.RiderLC.cpp.obj": [
+			"RiderLC.cpp.obj"
+		]
 	}
 }

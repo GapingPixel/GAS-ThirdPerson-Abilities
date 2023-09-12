@@ -1,5 +1,8 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.RiderShaderInfo.cpp.obj": [
+			"RiderShaderInfo.cpp.obj"
+		]
 	}
 }

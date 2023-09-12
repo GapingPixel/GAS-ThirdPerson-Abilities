@@ -110,7 +110,7 @@ AProjectile* UActionGameStatics::LaunchProjectile(UObject* WorldContextObject, T
 {
 	UWorld* World = WorldContextObject ? WorldContextObject->GetWorld() : nullptr;
 
-	if (World && World->IsServer())
+	if (World && World->IsNetMode(NM_DedicatedServer))
 	{
 		if (AProjectile* Projectile = World->SpawnActorDeferred<AProjectile>(AProjectile::StaticClass(), Transform, Owner, Instigator, ESpawnActorCollisionHandlingMethod::AlwaysSpawn))
 		{

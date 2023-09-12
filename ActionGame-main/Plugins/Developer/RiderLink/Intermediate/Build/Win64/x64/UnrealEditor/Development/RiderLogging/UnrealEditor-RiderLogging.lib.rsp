@@ -1,0 +1,11 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RiderLogging.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\mlg-b\OneDrive\Documents\GitHub\GAS-ThirdPerson-Abilities\ActionGame-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLogging\Module.RiderLogging.cpp.obj"
+"C:\Users\mlg-b\OneDrive\Documents\GitHub\GAS-ThirdPerson-Abilities\ActionGame-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLogging\Default.rc2.res"
+/OUT:"C:\Users\mlg-b\OneDrive\Documents\GitHub\GAS-ThirdPerson-Abilities\ActionGame-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLogging\UnrealEditor-RiderLogging.lib"
